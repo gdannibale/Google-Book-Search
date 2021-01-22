@@ -59,6 +59,7 @@ function Books(props) {
                 <Header />
                 <input type="text" name="input" onChange={handleInputChange} className="form-control form-control-lg" placeholder="Search"></input>
                 <button type="submit" onClick={handleFormSubmit} className="btn btn-primary mb-2">Search</button>
+                <a href= "/saved" >Saved Books</a>
             </Row>
             {resultArr.map(data => {
                 return (
