@@ -74,7 +74,7 @@ function MyBooks() {
                         })}
                     </div>
                 ) : (
-                        <h3 className="text-center">You don't have any books.</h3>
+                        <h3 className="text-center">You currently don't have any books. Start searching! </h3>
                     )}
             </Container>
 
